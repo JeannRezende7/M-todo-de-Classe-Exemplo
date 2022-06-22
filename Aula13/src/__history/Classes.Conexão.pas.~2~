@@ -23,7 +23,7 @@ end;
 
 class function Tconexao.VerificaBD: boolean;
 begin
-result :=  FileExists('C:\pgadmin.log');
+result :=  FileExists('C\pgadmin.log');
 end;
 
 end.

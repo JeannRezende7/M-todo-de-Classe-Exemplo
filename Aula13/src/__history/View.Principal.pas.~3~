@@ -39,7 +39,7 @@ ShowMessage('Objeto Criado!');
 end
 else
 raise Exception.Create('Não há arquivo de conexão');        
-                
+
 end;
 
 end.
